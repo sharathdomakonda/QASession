@@ -22,16 +22,12 @@ namespace _16.LeapYear
             }
 
 
-            else if(year%100==0 && year%400==0)
+            else if((year%100==0 && year%400==0) || year % 4 == 0)
             {
                 Console.WriteLine("The year is  a leap year");
             }
 
-            else if(year%4==0)
-            {
-                Console.WriteLine("The year is  a leap year");
-            }
-
+            
 
             Console.ReadLine();
         }

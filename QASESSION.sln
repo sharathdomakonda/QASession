@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00Practice2", "00Practice2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. LeapYear", "16. LeapYear\16. LeapYear.csproj", "{1F034B8E-03AB-41B2-ABA2-F1380FE86A73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.TriangeType", "17.TriangeTyepe\17.TriangeType.csproj", "{9211EF96-AE34-4EFF-88B0-41CFBF026E95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{1F034B8E-03AB-41B2-ABA2-F1380FE86A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F034B8E-03AB-41B2-ABA2-F1380FE86A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F034B8E-03AB-41B2-ABA2-F1380FE86A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9211EF96-AE34-4EFF-88B0-41CFBF026E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9211EF96-AE34-4EFF-88B0-41CFBF026E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9211EF96-AE34-4EFF-88B0-41CFBF026E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9211EF96-AE34-4EFF-88B0-41CFBF026E95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,15 +16,15 @@ namespace _16.LeapYear
 
             int year=Convert.ToInt32(Console.ReadLine());
 
-            if ( year % 100 == 0)
+            if ((year % 100 == 0 && year % 400 == 0) || year % 4 == 0)
             {
-                Console.WriteLine("The year is a not aleap year");
+                Console.WriteLine("The year is a leap year");
             }
 
 
-            else if((year%100==0 && year%400==0) || year % 4 == 0)
+            else 
             {
-                Console.WriteLine("The year is  a leap year");
+                Console.WriteLine("The year is not a leap year");
             }
 
             
